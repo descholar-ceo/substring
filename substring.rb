@@ -9,7 +9,7 @@ def substring(word, dictionary)
   result
 end
 
-dictionary = %w[below down go going horn how howdy it i low own part partnersit low]
-word = 'below'
+dictionary = %w[below down go going horn how howdy it i low own part partner sit ]
+word = "Howdy partner, sit down! How's it going?"
 
 p substring(word, dictionary)
